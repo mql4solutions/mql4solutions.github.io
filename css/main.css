@@ -1,0 +1,395 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    padding-top: 70px;
+	font-family: 'Roboto';
+	margin-bottom: 60px;
+}
+
+p {
+	text-align: justify;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 130px;
+	}
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: white;
+    border-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container {
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+.navbar-fixed-top {
+	background-color: black;
+}
+
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar {background-color: white;}
+.navbar-fixed-top .navbar-nav > li > a, .navbar-fixed-top .navbar-brand {color: black;}
+.navbar-fixed-top .navbar-nav > li.special > a, .navbar-fixed-top .navbar-brand {color: gold; font-weight: bold;}
+.navbar-fixed-top .navbar-nav > li > a:hover, 
+.navbar-fixed-top .navbar-nav > li > a:focus {color: #0093FF; background-color: white;}
+.navbar-fixed-top .navbar-nav > li.active > a {color: #0093FF; background-color: white;}
+.navbar-fixed-top .navbar-nav > li.active > a:hover {color: #0093FF; background-color: white;}
+.navbar-fixed-top .navbar-nav > li.active > a:focus {color: #0093FF; background-color: white;}
+
+@media only screen and (max-width: 766px) {
+.collapsing, .in {background-color: white;}
+.collapsing ul li a, .in ul li a {color: black!important;}
+.collapsing ul li a:hover, .in ul li a:hover {color: #0093FF!important;}
+.collapsing ul li.active a, .in ul li.active a {color: #0093FF!important;}
+.collapsing ul li.active a:hover, .in ul li.active a:hover {color: #0093FF!important;}
+}
+
+#content-main {
+	padding-bottom: 150px;
+}
+
+#content-final-top {
+	padding: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: white;
+	background-color: gold;
+	box-shadow: 2px 2px 5px grey;
+}
+#content-final-bot {
+	padding: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: white;
+	background-color: #00AEE8;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-title-ordering-title {
+	padding: 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+	color: white;
+	background-color:#00AEE8;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-title-ordering-info {
+	padding: 33px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	text-align: justify;
+	font-style: italic;
+	color: #F3FBFF;
+	background-color: #00AEE8;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-title-pricing-title {
+	padding: 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+	color: white;
+	background-color: coral;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-title-pricing-title-post{
+	padding: 33px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	text-align: justify;
+	font-style: italic;
+	color: #FFF9F3;
+	background-color: coral;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-title-pricing-info {
+	padding: 33px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	text-align: justify;
+	color: black;
+	background-color: floralwhite;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-title-assistivetech-title {
+	padding: 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+	color: white;
+	background-color:crimson;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-title-assistivetech-info {
+	padding: 33px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	text-align: justify;
+	font-style: italic;
+	color: #FFF2F2;
+	background-color:crimson;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-title-faq-title {
+	padding: 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+	color: white;
+	background-color:gold;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-title-faq-info {
+	padding: 33px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	text-align: justify;
+	font-style: italic;
+	color: #FFFEF2;
+	background-color:gold;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-title-about-title {
+	padding: 30px;
+	padding-bottom: 10px;
+	text-align: justify;
+	color: white;
+	background-color:#008FB4;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-title-about-info {
+	padding: 33px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	text-align: justify;
+	font-style: italic;
+	color: #F3F9FF;
+	background-color:#008FB4;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-ordering-top {
+	padding: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: justify;
+	color: white;
+	background-color: #00AEE8;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-ordering-bot {
+	padding: 33px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: black;
+	background-color: #F9FEFf;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-col-pricing-left-top {
+	padding: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-align: justify;
+	color: white;
+	background-color:limegreen;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-col-pricing-left-bot {
+	padding: 33px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: black;
+	background-color: #EFFFEF;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-col-pricing-right-top {
+	padding: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-align: justify;
+	color: white;
+	background-color: red;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-col-pricing-right-bot {
+	padding: 33px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: black;
+	background-color: #FFF3F3;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-col-pricing-mid-top {
+	padding: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-align: justify;
+	color: white;
+	background-color: gold;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-col-pricing-mid-bot {
+	padding: 33px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: black;
+	background-color: #FFFEF0;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-pricing-top {
+	padding: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: justify;
+	color: white;
+	background-color: coral;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-pricing-bot {
+	padding: 33px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: black;
+	background-color: #FFF7F4;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-faq-top {
+	padding: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: justify;
+	color: white;
+	background-color: gold;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-faq-bot {
+	padding: 33px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: black;
+	background-color: white;
+	box-shadow: 2px 2px 5px grey;
+}
+
+.card-about-top {
+	padding: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: justify;
+	color: white;
+	background-color: #008FB4;
+	box-shadow: 2px 2px 5px grey;
+}
+.card-about-bot {
+	padding: 33px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: black;
+	background-color: #F7FDFF;
+	box-shadow: 2px 2px 5px grey;
+}
+
+
+footer {
+	padding: 10px;
+	font-size: small;
+	color: dimgrey;
+	background-color: whitesmoke;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.brand {
+	font-style: italic;
+}
+
+.textshadow {
+	text-shadow: 2px 2px 5px grey;
+}
