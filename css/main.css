@@ -6,13 +6,13 @@ html {
 }
 
 body {
-    padding-top: 70px;
+    padding-top: 100px;
 	font-family: 'Roboto';
 	margin-bottom: 60px;
 }
 
 p {
-	text-align: justify;
+	text-align: inherit;
 }
 
 .navbar-fixed-top .nav {
@@ -113,7 +113,7 @@ p {
 .card-title-ordering-title {
 	padding: 30px;
 	padding-bottom: 10px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color:#00AEE8;
 	box-shadow: 2px 2px 5px grey;
@@ -123,7 +123,7 @@ p {
 	padding-top: 0px;
 	padding-bottom: 40px;
 	margin-bottom: 30px;
-	text-align: justify;
+	text-align: inherit;
 	font-style: italic;
 	color: #F3FBFF;
 	background-color: #00AEE8;
@@ -133,7 +133,7 @@ p {
 .card-title-pricing-title {
 	padding: 30px;
 	padding-bottom: 10px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color: coral;
 	box-shadow: 2px 2px 5px grey;
@@ -143,7 +143,7 @@ p {
 	padding-top: 0px;
 	padding-bottom: 40px;
 	margin-bottom: 30px;
-	text-align: justify;
+	text-align: inherit;
 	font-style: italic;
 	color: #FFF9F3;
 	background-color: coral;
@@ -154,7 +154,7 @@ p {
 	padding-top: 10px;
 	padding-bottom: 40px;
 	margin-bottom: 30px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: floralwhite;
 	box-shadow: 2px 2px 5px grey;
@@ -163,7 +163,7 @@ p {
 .card-title-assistivetech-title {
 	padding: 30px;
 	padding-bottom: 10px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color:crimson;
 	box-shadow: 2px 2px 5px grey;
@@ -173,7 +173,7 @@ p {
 	padding-top: 0px;
 	padding-bottom: 40px;
 	margin-bottom: 30px;
-	text-align: justify;
+	text-align: inherit;
 	font-style: italic;
 	color: #FFF2F2;
 	background-color:crimson;
@@ -183,7 +183,7 @@ p {
 .card-title-faq-title {
 	padding: 30px;
 	padding-bottom: 10px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color:gold;
 	box-shadow: 2px 2px 5px grey;
@@ -193,7 +193,7 @@ p {
 	padding-top: 0px;
 	padding-bottom: 40px;
 	margin-bottom: 30px;
-	text-align: justify;
+	text-align: inherit;
 	font-style: italic;
 	color: #FFFEF2;
 	background-color:gold;
@@ -203,7 +203,7 @@ p {
 .card-title-about-title {
 	padding: 30px;
 	padding-bottom: 10px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color:#008FB4;
 	box-shadow: 2px 2px 5px grey;
@@ -213,7 +213,7 @@ p {
 	padding-top: 0px;
 	padding-bottom: 40px;
 	margin-bottom: 30px;
-	text-align: justify;
+	text-align: inherit;
 	font-style: italic;
 	color: #F3F9FF;
 	background-color:#008FB4;
@@ -224,7 +224,7 @@ p {
 	padding: 30px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color: #00AEE8;
 	box-shadow: 2px 2px 5px grey;
@@ -234,7 +234,7 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: #F9FEFf;
 	box-shadow: 2px 2px 5px grey;
@@ -246,7 +246,7 @@ p {
 	padding-bottom: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color:limegreen;
 	box-shadow: 2px 2px 5px grey;
@@ -258,7 +258,7 @@ p {
 	margin-left: 3px;
 	margin-right: 3px;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: #EFFFEF;
 	box-shadow: 2px 2px 5px grey;
@@ -270,7 +270,7 @@ p {
 	padding-bottom: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color: red;
 	box-shadow: 2px 2px 5px grey;
@@ -282,7 +282,7 @@ p {
 	margin-left: 3px;
 	margin-right: 3px;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: #FFF3F3;
 	box-shadow: 2px 2px 5px grey;
@@ -294,7 +294,7 @@ p {
 	padding-bottom: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color: gold;
 	box-shadow: 2px 2px 5px grey;
@@ -306,7 +306,7 @@ p {
 	margin-left: 3px;
 	margin-right: 3px;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: #FFFEF0;
 	box-shadow: 2px 2px 5px grey;
@@ -316,7 +316,7 @@ p {
 	padding: 30px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color: coral;
 	box-shadow: 2px 2px 5px grey;
@@ -326,7 +326,7 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: #FFF7F4;
 	box-shadow: 2px 2px 5px grey;
@@ -336,7 +336,7 @@ p {
 	padding: 30px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color: gold;
 	box-shadow: 2px 2px 5px grey;
@@ -346,7 +346,7 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: white;
 	box-shadow: 2px 2px 5px grey;
@@ -356,7 +356,7 @@ p {
 	padding: 30px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	text-align: justify;
+	text-align: inherit;
 	color: white;
 	background-color: #008FB4;
 	box-shadow: 2px 2px 5px grey;
@@ -366,7 +366,7 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	text-align: justify;
+	text-align: inherit;
 	color: black;
 	background-color: #F7FDFF;
 	box-shadow: 2px 2px 5px grey;
@@ -392,4 +392,8 @@ footer {
 
 .textshadow {
 	text-shadow: 2px 2px 5px grey;
+}
+
+.text-justify {
+	text-align: justify;
 }
