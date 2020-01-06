@@ -1,0 +1,49 @@
+<article class="mdc-card aside-card d-none">
+  <div class="mdc-card__actions aside-card__header">
+    <i class="material-icons md-48 info-clr">school</i>
+    <span class="mdc-typography--overline aside-card__header__overline">
+      Define
+    </span>
+  </div>
+  <div class="card-freeform-text-content aside-card__main">
+    <h5 class="mdc-typography--headline5 aside-card__main__h">
+      Point vs Pip
+    </h5>
+    <div class="mdc-typography--body2 aside-card__main__body">
+        <p>
+            A <strong>Point</strong> is the smallest price change for a particular chart given by your particular broker.
+        </p>
+        <p>
+            For example, 1 <strong>Point</strong> on EURUSD is 0.00001 if your broker provides 5 digits for EURUSD.
+        </p>
+        <p>
+            If your broker provides EURUSD with 4 digits, then 1 <strong>Point</strong> on EURUSD is 0.0001.
+        </p>
+        <p>
+            You should always use units of <strong>Points</strong> in defining your robot, because it's the smallest unit and
+            therefore gives you
+            the most flexibility. The meaning of <strong>Point</strong> is understood on any chart and any broker. Just look at how many
+            digits a chart has, and that's what your robot will use as a <strong>Point</strong> in its algorithm.
+        </p>
+        <div class="mdc-card danger-clr danger-bg-clr danger-brdr-thickleft mt-2">
+            <div class="card-freeform-text-content">
+                <p>
+                    A <strong>Pip</strong>, to us, is a financial convention used in News and is a bit vague for development. In News and finance,
+                    when a person speaks of a <q>pip</q> on EURUSD, they will probably be referring to a price movement of 0.0001.
+                </p>
+            </div>
+        </div>
+                
+        <div class="mdc-card success-clr success-bg-clr success-brdr-thickleft mt-2">
+            <div class="card-freeform-text-content">
+                <p>
+                    But in creating a robot with inputs,
+                    you want to give it it maximum flexibility by defining its units in <strong>Points</strong>, which specifically means
+                    in MT4 to be
+                    <strong>the smallest given price unit for that chart and that broker you're currently running the robot on</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+</article>
